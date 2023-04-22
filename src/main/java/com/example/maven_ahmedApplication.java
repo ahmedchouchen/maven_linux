@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @ComponentScan({"com.example.controller","com.example.service"})
 
-public class Demo1Application {
+public class maven_ahmedApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Demo1Application.class, args);
+		SpringApplication.run(maven_ahmedApplication.class, args);
 		// testing webhook
 		// testing email notification
 	}
